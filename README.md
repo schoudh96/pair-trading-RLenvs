@@ -1,9 +1,6 @@
 # Reinforcement Learning Pair Trading
 
-This repository contains the open-source code for the paper Reinforcement Learning Pair Trading: A Dynamic Scaling approach[^1] 
-
-### Rule-based Pair Trading Environment
-Rule-based pair trading environments with [backtrader](https://www.backtrader.com/) framework (`env_gridsearch.ipynb`)
+This repository uses the open-source code for the paper Reinforcement Learning Pair Trading: A Dynamic Scaling approach[^1] and tries to replicate the results and then expand it to different asset classes and time periods. 
 
 ### Gymnasium-based Pair Trading Environment
 Reinforcement Learning based environment with [gymnasium](https://gymnasium.farama.org/index.html)  (`env_rl.ipynb`)
