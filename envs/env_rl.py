@@ -40,7 +40,7 @@ class RL_FixAmt_PairTrade(gym.Env):
         self.fixed_amt = fixed_amt
         self.df = df
         self.model = model
-        self.best_params = read_best_params()
+        self.best_params = {'OPEN_THRE': 1.3, 'CLOS_THRE': 0.05, 'period': 700, 'verbose': 0, 'prefix': 'Gridsearch', 'kellycriterion': False, 'fixed_amount': 0.1} #read_best_params()
         self.holdings = [0, 0] #[400, -300] That means we have 400 unit of leg0 and -300 unit of leg1
 
     def _get_obs(self):
